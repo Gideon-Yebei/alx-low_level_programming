@@ -6,7 +6,9 @@
  * @name: First member
  * @age: Second member
  * @owner: Third member
- */
+ *
+ * Description: Stores a record of a dog.
+*/
 struct dog
 {
 	char *name;
@@ -25,10 +27,5 @@ dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
 char *_strcpy(char *dest, char *src);
 int _strlen(char *s);
-struct dog
-{
-		char *name;
-		float age;
-		char *owner;
-};
+
 #endif
