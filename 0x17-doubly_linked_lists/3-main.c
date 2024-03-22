@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-void add_dnodeint_end(dlistint_t **head, const int n);
 /**
  * main - check the code
  *
